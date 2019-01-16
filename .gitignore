@@ -1,4 +1,9 @@
-# Pythin ignore
+##### Pythin ignore #####
+#Custom
+.vscode/
+.config/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

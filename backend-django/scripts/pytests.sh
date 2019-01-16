@@ -1,1 +1,1 @@
-cd ../src && python manage.py test --settings=agilishapi.settings.developments
+cd ../src && pytest -s jiniapis/tests/test_models.py
