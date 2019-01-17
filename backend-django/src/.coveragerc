@@ -10,4 +10,6 @@ omit =
     *conftest.py,
     */extra*
     *apps.py,
-    *views.py
+    *views.py,
+    *base.py,
+    

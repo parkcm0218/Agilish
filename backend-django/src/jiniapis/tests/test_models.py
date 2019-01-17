@@ -27,5 +27,6 @@ class JiniapisModelTests(TestCase):
 
     def test_create_user_via_mixer(self):        
         for cnt in range(50):
+            cnt = cnt
             mixer.blend('auth.User')
         assert User.objects.count() is 50, "Should be equal"
