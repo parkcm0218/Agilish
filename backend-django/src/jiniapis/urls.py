@@ -11,4 +11,5 @@ router.register(r'user', UserViewSet)
 
 urlpatterns = [
     url(r'', include(router.urls)),
+    url(r'^o/', include('oauth2_provider.urls', namespace='oauth2_provider')),
 ]

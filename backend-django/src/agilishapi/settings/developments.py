@@ -17,3 +17,5 @@ DATABASES = {
     }
 }
 
+#Allow CORS requests from all domains (just for the scope of development):
+CORS_ORIGIN_ALLOW_ALL = True

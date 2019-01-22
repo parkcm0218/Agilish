@@ -1,5 +1,6 @@
 ##### Pythin ignore #####
 #Custom
+venvactive.sh
 .vscode/
 .config/
 
